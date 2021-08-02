@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[
+ The response for this request is : 
+[
+    {
+        "agency": {
+            "id": "ttc",
+            "title": "Toronto Transit Commission",
+            "logoUrl": null
+        },
+        "route": {
+            "id": "504",
+            "title": "504-King"
+        },
+        "stop": {
+            "id": "23890",
+            "title": "King St West At John St West Side",
+            "distance": null
+        },
+        "messages": [
+            
+        ],
+        "values": [
+            {
+                "epochTime": 1627943161129,
+                "seconds": 116,
+                "minutes": 1,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4582",
+                    "block": "504_13_130",
+                    "trip": "42824861"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943455196,
+                "seconds": 410,
+                "minutes": 6,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4405",
+                    "block": "504_6_60",
+                    "trip": "42824860"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943750322,
+                "seconds": 706,
+                "minutes": 11,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4565",
+                    "block": "504_16_160",
+                    "trip": "42824859"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944073319,
+                "seconds": 1029,
+                "minutes": 17,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4512",
+                    "block": "504_1_10",
+                    "trip": "42824858"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944373319,
+                "seconds": 1329,
+                "minutes": 22,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4564",
+                    "block": "504_10_100",
+                    "trip": "42824857"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23890/predictions",
+                "type": "application/json",
+                "rel": "self",
+                "rt": "prediction",
+                "title": "Predictions for stop King St West At John St West Side on ttc route 504."
+            },
+            "to": [
+                
+            ],
+            "from": [
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23890/predictions",
+                    "type": "application/json",
+                    "rel": "section",
+                    "rt": "prediction",
+                    "title": "Predictions for stop King St West At John St West Side on ttc route 504."
+                },
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504",
+                    "type": "application/json",
+                    "rel": "via",
+                    "rt": "route",
+                    "title": "Full route configuration for ttc route 504."
+                }
+            ]
+        }
+    }
+]]]>
+    </line>
+    <line>
+      <![CDATA[
+ The response for this request is : 
+[
+    {
+        "agency": {
+            "id": "ttc",
+            "title": "Toronto Transit Commission",
+            "logoUrl": null
+        },
+        "route": {
+            "id": "504",
+            "title": "504-King"
+        },
+        "stop": {
+            "id": "23891",
+            "title": "King St West At John St East Side",
+            "distance": null
+        },
+        "messages": [
+            
+        ],
+        "values": [
+            {
+                "epochTime": 1627943301649,
+                "seconds": 256,
+                "minutes": 4,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4553",
+                    "block": "504_5_50",
+                    "trip": "42824288"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627943570016,
+                "seconds": 524,
+                "minutes": 8,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4571",
+                    "block": "504_14_140",
+                    "trip": "42824287"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627943958906,
+                "seconds": 913,
+                "minutes": 15,
+                "branch": "504",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4410",
+                    "block": "504_15_150",
+                    "trip": "42824286"
+                },
+                "direction": {
+                    "id": "504_0_EXBR",
+                    "title": "East - East - 504 King Short Turn towards Broadview and Queen"
+                }
+            },
+            {
+                "epochTime": 1627943962548,
+                "seconds": 917,
+                "minutes": 15,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4439",
+                    "block": "504_8_80",
+                    "trip": "42824285"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627944325162,
+                "seconds": 1279,
+                "minutes": 21,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4589",
+                    "block": "504_7_70",
+                    "trip": "42824284"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627944685162,
+                "seconds": 1639,
+                "minutes": 27,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4559",
+                    "block": "504_11_110",
+                    "trip": "42824175"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627945617439,
+                "seconds": 2571,
+                "minutes": 42,
+                "branch": "504",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4582",
+                    "block": "504_13_130",
+                    "trip": "42824178"
+                },
+                "direction": {
+                    "id": "504_0_EXBR",
+                    "title": "East - East - 504 King Short Turn towards Broadview and Queen"
+                }
+            },
+            {
+                "epochTime": 1627945710070,
+                "seconds": 2664,
+                "minutes": 44,
+                "branch": "504",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4405",
+                    "block": "504_6_60",
+                    "trip": "42824172"
+                },
+                "direction": {
+                    "id": "504_0_EXBR",
+                    "title": "East - East - 504 King Short Turn towards Broadview and Queen"
+                }
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23891/predictions",
+                "type": "application/json",
+                "rel": "self",
+                "rt": "prediction",
+                "title": "Predictions for stop King St West At John St East Side on ttc route 504."
+            },
+            "to": [
+                
+            ],
+            "from": [
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23891/predictions",
+                    "type": "application/json",
+                    "rel": "section",
+                    "rt": "prediction",
+                    "title": "Predictions for stop King St West At John St East Side on ttc route 504."
+                },
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504",
+                    "type": "application/json",
+                    "rel": "via",
+                    "rt": "route",
+                    "title": "Full route configuration for ttc route 504."
+                }
+            ]
+        }
+    }
+]]]>
+    </line>
+    <line>
+      <![CDATA[
+ The response for this request is : 
+[
+    {
+        "agency": {
+            "id": "ttc",
+            "title": "Toronto Transit Commission",
+            "logoUrl": null
+        },
+        "route": {
+            "id": "504",
+            "title": "504-King"
+        },
+        "stop": {
+            "id": "23892",
+            "title": "King St West At Peter St West Side",
+            "distance": null
+        },
+        "messages": [
+            
+        ],
+        "values": [
+            {
+                "epochTime": 1627943229362,
+                "seconds": 183,
+                "minutes": 3,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4582",
+                    "block": "504_13_130",
+                    "trip": "42824861"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943523429,
+                "seconds": 477,
+                "minutes": 7,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4405",
+                    "block": "504_6_60",
+                    "trip": "42824860"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943818555,
+                "seconds": 772,
+                "minutes": 12,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4565",
+                    "block": "504_16_160",
+                    "trip": "42824859"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944141552,
+                "seconds": 1095,
+                "minutes": 18,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4512",
+                    "block": "504_1_10",
+                    "trip": "42824858"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944441552,
+                "seconds": 1395,
+                "minutes": 23,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4564",
+                    "block": "504_10_100",
+                    "trip": "42824857"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23892/predictions",
+                "type": "application/json",
+                "rel": "self",
+                "rt": "prediction",
+                "title": "Predictions for stop King St West At Peter St West Side on ttc route 504."
+            },
+            "to": [
+                
+            ],
+            "from": [
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23892/predictions",
+                    "type": "application/json",
+                    "rel": "section",
+                    "rt": "prediction",
+                    "title": "Predictions for stop King St West At Peter St West Side on ttc route 504."
+                },
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504",
+                    "type": "application/json",
+                    "rel": "via",
+                    "rt": "route",
+                    "title": "Full route configuration for ttc route 504."
+                }
+            ]
+        }
+    }
+]]]>
+    </line>
+  </reporter-output>
+  <suite name="RunAllTests" duration-ms="23054" started-at="2021-08-02T22:23:42Z" finished-at="2021-08-02T22:24:05Z">
+    <groups>
+    </groups>
+    <test name="Kira Sanity Tests" duration-ms="23054" started-at="2021-08-02T22:23:42Z" finished-at="2021-08-02T22:24:05Z">
+      <class name="com.kirasystems.seleniumtests.KiraSystemsSanityCheck">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kirasystems.seleniumtests.KiraSystemsSanityCheck@14bf9759]" name="setup" is-config="true" duration-ms="11929" started-at="2021-08-02T22:23:42Z" finished-at="2021-08-02T22:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchKiraSystems()[pri:0, instance:com.kirasystems.seleniumtests.KiraSystemsSanityCheck@14bf9759]" name="searchKiraSystems" duration-ms="5580" started-at="2021-08-02T22:23:54Z" finished-at="2021-08-02T22:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchKiraSystems -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.kirasystems.seleniumtests.KiraSystemsSanityCheck@14bf9759]" name="screenShot" is-config="true" duration-ms="3" started-at="2021-08-02T22:24:00Z" finished-at="2021-08-02T22:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchKiraSystems status=SUCCESS method=KiraSystemsSanityCheck.searchKiraSystems()[pri:0, instance:com.kirasystems.seleniumtests.KiraSystemsSanityCheck@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kirasystems.seleniumtests.KiraSystemsSanityCheck@14bf9759]" name="tearDown" is-config="true" duration-ms="1385" started-at="2021-08-02T22:24:00Z" finished-at="2021-08-02T22:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kirasystems.seleniumtests.KiraSystemsSanityCheck -->
+      <class name="com.kirasystems.apitests.GETArrivalUpdates">
+        <test-method status="PASS" signature="getUpdatesonArrivals(java.lang.Integer)[pri:0, instance:com.kirasystems.apitests.GETArrivalUpdates@5f341870]" name="getUpdatesonArrivals" duration-ms="3478" started-at="2021-08-02T22:24:01Z" data-provider="StopsToCheck" finished-at="2021-08-02T22:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ The response for this request is : 
+[
+    {
+        "agency": {
+            "id": "ttc",
+            "title": "Toronto Transit Commission",
+            "logoUrl": null
+        },
+        "route": {
+            "id": "504",
+            "title": "504-King"
+        },
+        "stop": {
+            "id": "23890",
+            "title": "King St West At John St West Side",
+            "distance": null
+        },
+        "messages": [
+            
+        ],
+        "values": [
+            {
+                "epochTime": 1627943161129,
+                "seconds": 116,
+                "minutes": 1,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4582",
+                    "block": "504_13_130",
+                    "trip": "42824861"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943455196,
+                "seconds": 410,
+                "minutes": 6,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4405",
+                    "block": "504_6_60",
+                    "trip": "42824860"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943750322,
+                "seconds": 706,
+                "minutes": 11,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4565",
+                    "block": "504_16_160",
+                    "trip": "42824859"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944073319,
+                "seconds": 1029,
+                "minutes": 17,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4512",
+                    "block": "504_1_10",
+                    "trip": "42824858"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944373319,
+                "seconds": 1329,
+                "minutes": 22,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4564",
+                    "block": "504_10_100",
+                    "trip": "42824857"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23890/predictions",
+                "type": "application/json",
+                "rel": "self",
+                "rt": "prediction",
+                "title": "Predictions for stop King St West At John St West Side on ttc route 504."
+            },
+            "to": [
+                
+            ],
+            "from": [
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23890/predictions",
+                    "type": "application/json",
+                    "rel": "section",
+                    "rt": "prediction",
+                    "title": "Predictions for stop King St West At John St West Side on ttc route 504."
+                },
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504",
+                    "type": "application/json",
+                    "rel": "via",
+                    "rt": "route",
+                    "title": "Full route configuration for ttc route 504."
+                }
+            ]
+        }
+    }
+]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUpdatesonArrivals -->
+        <test-method status="PASS" signature="getUpdatesonArrivals(java.lang.Integer)[pri:0, instance:com.kirasystems.apitests.GETArrivalUpdates@5f341870]" name="getUpdatesonArrivals" duration-ms="302" started-at="2021-08-02T22:24:05Z" data-provider="StopsToCheck" finished-at="2021-08-02T22:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ The response for this request is : 
+[
+    {
+        "agency": {
+            "id": "ttc",
+            "title": "Toronto Transit Commission",
+            "logoUrl": null
+        },
+        "route": {
+            "id": "504",
+            "title": "504-King"
+        },
+        "stop": {
+            "id": "23891",
+            "title": "King St West At John St East Side",
+            "distance": null
+        },
+        "messages": [
+            
+        ],
+        "values": [
+            {
+                "epochTime": 1627943301649,
+                "seconds": 256,
+                "minutes": 4,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4553",
+                    "block": "504_5_50",
+                    "trip": "42824288"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627943570016,
+                "seconds": 524,
+                "minutes": 8,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4571",
+                    "block": "504_14_140",
+                    "trip": "42824287"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627943958906,
+                "seconds": 913,
+                "minutes": 15,
+                "branch": "504",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4410",
+                    "block": "504_15_150",
+                    "trip": "42824286"
+                },
+                "direction": {
+                    "id": "504_0_EXBR",
+                    "title": "East - East - 504 King Short Turn towards Broadview and Queen"
+                }
+            },
+            {
+                "epochTime": 1627943962548,
+                "seconds": 917,
+                "minutes": 15,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4439",
+                    "block": "504_8_80",
+                    "trip": "42824285"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627944325162,
+                "seconds": 1279,
+                "minutes": 21,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4589",
+                    "block": "504_7_70",
+                    "trip": "42824284"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627944685162,
+                "seconds": 1639,
+                "minutes": 27,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4559",
+                    "block": "504_11_110",
+                    "trip": "42824175"
+                },
+                "direction": {
+                    "id": "504_0_504A",
+                    "title": "East - East - 504a King towards Distillery"
+                }
+            },
+            {
+                "epochTime": 1627945617439,
+                "seconds": 2571,
+                "minutes": 42,
+                "branch": "504",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4582",
+                    "block": "504_13_130",
+                    "trip": "42824178"
+                },
+                "direction": {
+                    "id": "504_0_EXBR",
+                    "title": "East - East - 504 King Short Turn towards Broadview and Queen"
+                }
+            },
+            {
+                "epochTime": 1627945710070,
+                "seconds": 2664,
+                "minutes": 44,
+                "branch": "504",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4405",
+                    "block": "504_6_60",
+                    "trip": "42824172"
+                },
+                "direction": {
+                    "id": "504_0_EXBR",
+                    "title": "East - East - 504 King Short Turn towards Broadview and Queen"
+                }
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23891/predictions",
+                "type": "application/json",
+                "rel": "self",
+                "rt": "prediction",
+                "title": "Predictions for stop King St West At John St East Side on ttc route 504."
+            },
+            "to": [
+                
+            ],
+            "from": [
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23891/predictions",
+                    "type": "application/json",
+                    "rel": "section",
+                    "rt": "prediction",
+                    "title": "Predictions for stop King St West At John St East Side on ttc route 504."
+                },
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504",
+                    "type": "application/json",
+                    "rel": "via",
+                    "rt": "route",
+                    "title": "Full route configuration for ttc route 504."
+                }
+            ]
+        }
+    }
+]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUpdatesonArrivals -->
+        <test-method status="PASS" signature="getUpdatesonArrivals(java.lang.Integer)[pri:0, instance:com.kirasystems.apitests.GETArrivalUpdates@5f341870]" name="getUpdatesonArrivals" duration-ms="315" started-at="2021-08-02T22:24:05Z" data-provider="StopsToCheck" finished-at="2021-08-02T22:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23892]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+ The response for this request is : 
+[
+    {
+        "agency": {
+            "id": "ttc",
+            "title": "Toronto Transit Commission",
+            "logoUrl": null
+        },
+        "route": {
+            "id": "504",
+            "title": "504-King"
+        },
+        "stop": {
+            "id": "23892",
+            "title": "King St West At Peter St West Side",
+            "distance": null
+        },
+        "messages": [
+            
+        ],
+        "values": [
+            {
+                "epochTime": 1627943229362,
+                "seconds": 183,
+                "minutes": 3,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4582",
+                    "block": "504_13_130",
+                    "trip": "42824861"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943523429,
+                "seconds": 477,
+                "minutes": 7,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4405",
+                    "block": "504_6_60",
+                    "trip": "42824860"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627943818555,
+                "seconds": 772,
+                "minutes": 12,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": false,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4565",
+                    "block": "504_16_160",
+                    "trip": "42824859"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944141552,
+                "seconds": 1095,
+                "minutes": 18,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4512",
+                    "block": "504_1_10",
+                    "trip": "42824858"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            },
+            {
+                "epochTime": 1627944441552,
+                "seconds": 1395,
+                "minutes": 23,
+                "branch": "504A",
+                "isDeparture": false,
+                "affectedByLayover": true,
+                "isScheduleBased": false,
+                "vehicle": {
+                    "id": "4564",
+                    "block": "504_10_100",
+                    "trip": "42824857"
+                },
+                "direction": {
+                    "id": "504_1_504A",
+                    "title": "West - West - 504a King towards Dundas West Station"
+                }
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23892/predictions",
+                "type": "application/json",
+                "rel": "self",
+                "rt": "prediction",
+                "title": "Predictions for stop King St West At Peter St West Side on ttc route 504."
+            },
+            "to": [
+                
+            ],
+            "from": [
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504/stops/23892/predictions",
+                    "type": "application/json",
+                    "rel": "section",
+                    "rt": "prediction",
+                    "title": "Predictions for stop King St West At Peter St West Side on ttc route 504."
+                },
+                {
+                    "href": "http://restbus.info/api/agencies/ttc/routes/504",
+                    "type": "application/json",
+                    "rel": "via",
+                    "rt": "route",
+                    "title": "Full route configuration for ttc route 504."
+                }
+            ]
+        }
+    }
+]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUpdatesonArrivals -->
+      </class> <!-- com.kirasystems.apitests.GETArrivalUpdates -->
+    </test> <!-- Kira Sanity Tests -->
+  </suite> <!-- RunAllTests -->
+</testng-results>

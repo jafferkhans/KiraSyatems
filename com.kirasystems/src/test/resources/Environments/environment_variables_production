@@ -1,0 +1,7 @@
+########Properties for API tests########
+
+url=http://restbus.info
+path_stops=/api/agencies/ttc/routes/504/stops/
+path_predictions=/predictions
+
+######## All Xpaths can also be added here making them reusable. ########

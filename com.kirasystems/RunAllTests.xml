@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RunAllTests" configfailurepolicy="continue">
+    <test name="Kira Sanity Tests" preserve-order="true">
+        <classes>
+            <class name= "com.kirasystems.seleniumtests.KiraSystemsSanityCheck"/>
+            <class name= "com.kirasystems.apitests.GETArrivalUpdates"/>
+        </classes>
+    </test>
+</suite>
